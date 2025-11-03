@@ -101,13 +101,7 @@ Il blocco di assegnazione, come al solito si riporta così com'è dal diagramma 
 ```Java
 ...
 public class Esercizio {
-    public static void main(String[] args) {
-        int[][] miaMatrice = new int[3][5];  
 
-        miaMatrice[0][3] = 7;
-        miaMatrice[1][3] = 7;
-        miaMatrice[2][3] = 7;
-    }
 }
 ```
 ## Esercizio 1
@@ -124,14 +118,7 @@ Eseguire il programma per controllare che il contenuto della matrice sia come ci
 
 ```Java
 public static void esercizio1() {
-    int [][] miaMatrice = new int[3][5];
-    miaMatrice[1][0] = 7;
-    miaMatrice[1][1] = 7;
-    miaMatrice[1][2] = 7;
-    miaMatrice[1][3] = 7;
-    miaMatrice[1][4] = 7;
-
-    UtilsMatrice.visualizza(miaMatrice);
+.
 }
 ```
 </details>
